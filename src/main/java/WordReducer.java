@@ -9,7 +9,7 @@ import java.io.IOException;
  */
 public class WordReducer extends Reducer<Text, IntWritable, Text, IntWritable> {
 
-    protected static final String TARGET_WORD = "Watson";
+    protected static final String TARGET_WORD = "Name";
 
     @Override
     protected void reduce(Text key, Iterable<IntWritable> values, Context context) throws IOException, InterruptedException {
